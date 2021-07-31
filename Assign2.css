@@ -1,0 +1,98 @@
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+h1
+{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+i{
+    color: rgb(233, 68, 8);
+    margin-right:30px;
+    font-size: 40px;
+    position:relative;
+    left:0px;
+    top: 7px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.todo{
+    height:350px ;
+    width:350px;
+    border: 1.75px solid rgb(233, 125, 86);
+    border-radius: 10px;
+    box-shadow: 5px 7px  14px rgb(167, 166, 166);
+}
+.h{
+    position: relative;
+    border-bottom: 2px solid grey;
+    top: 30px;
+    left: 100px;
+    width: 250px;
+    height: 40px;
+    margin: 0px;
+}
+.one1{
+    display: inline;
+    font-size: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(219, 63, 6);
+}
+.complete{
+    color: rgb(221, 38, 38);
+    text-decoration-thickness: 3px;
+    text-decoration-line: line-through;
+    font-size: 20px;
+    position: relative;
+    left: 110px;
+    padding-top: 20px;
+    font-family:sans-serif;
+    font-weight: 300px;
+}
+.pt{
+    position: relative;
+    bottom: 2.5px;
+    left: 80px;
+    font-size: 20px;
+    padding-left: 1px;
+    color: black;
+    font-family:sans-serif;
+}
+#cb{
+    height: 17px;
+    width: 17px;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: relative;
+    left: 80px;
+}
+.fa-plus-circle{
+    color: rgb(218, 65, 10);
+    font-size: 33px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    .heading{
+        display: flex;
+        align-items: center;
+    }
+    h1{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:40px;
+    letter-spacing: 1px;
+    font-weight:500;
+    }
+
+}
